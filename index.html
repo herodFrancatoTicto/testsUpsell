@@ -25,8 +25,6 @@
       color: #ddd;
     }
     button {
-      background-color: #27ae60;
-      color: #fff;
       font-size: 18px;
       padding: 15px 30px;
       border: none;
@@ -35,14 +33,19 @@
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
-    button:hover {
+    .ticto-upsell-button {
+      background-color: #27ae60;
+      color: #fff;
+    }
+    .ticto-upsell-button:hover {
       background-color: #219150;
     }
-    .btn-blue {
-      background-color: #2980b9;
+    .ticto-refuse-button {
+      background-color: #c0392b; /* vermelho */
+      color: #fff;
     }
-    .btn-blue:hover {
-      background-color: #216494;
+    .ticto-refuse-button:hover {
+      background-color: #992d22;
     }
   </style>
 </head>
@@ -68,7 +71,7 @@
 
   <br><br>
 
-  <!-- Botões da Ticto substituindo os anteriores -->
+  <!-- Botões da Ticto -->
   <button type="button" class="ticto-upsell-button" data-offer-code="O2F9CF17B">COMPRAR AGORA</button>
   <button type="button" class="ticto-refuse-button">NÃO QUERO, OBRIGADO</button>
 
